@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/technical_test_ms.app-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/technical_test_ms.app-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/technical_test_ms.app-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/technical_test_ms.app-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/technical_test_ms.model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/technical_test_ms.model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/technical_test_ms.r2dbc-postgresql.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/technical_test_ms.r2dbc-postgresql.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/technical_test_ms.r2dbc-postgresql.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/technical_test_ms.r2dbc-postgresql.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/technical_test_ms.reactive-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/technical_test_ms.reactive-web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/technical_test_ms.reactive-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/technical_test_ms.reactive-web.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/technical_test_ms.usecase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/technical_test_ms.usecase.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/technical_test_ms.usecase.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/technical_test_ms.usecase.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ArchitectureTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ArchitectureTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/co.com.test.html">co.com.test</a> &gt; ArchitectureTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.342s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+<li>
+<a href="#">Standard error</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">beansShouldOnlyHaveFinalFields()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">domainClassesShouldNotBeNamedWithTechSuffixes()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">domainClassesShouldNotBeNamedWithToolNames()</td>
+<td class="success">0.071s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">domainClassesShouldNotHaveFieldsNamedWithToolNames()</td>
+<td class="success">0.098s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">reactiveFlowsShouldUseAwsAsyncClients()</td>
+<td class="success">0.150s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">useCaseFinalFields()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:06:58,740 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.11
+23:06:58,744 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - Here is a list of configurators discovered as a service, by rank: 
+23:06:58,745 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+23:06:58,745 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+23:06:58,745 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+23:06:58,758 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+23:06:58,758 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+23:06:58,760 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+23:06:58,761 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+23:06:58,761 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+23:06:58,761 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+23:06:58,761 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+23:06:58,763 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+23:06:58,763 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+23:06:58,765 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/elvis.pareja/Documents/ELVIS_PAREJA/pruebas-tecnicas/technical_test_ms/applications/app-service/build/resources/main/logback.xml]
+23:06:59,028 |-WARN in ch.qos.logback.core.model.processor.AppenderModelHandler - Appender named [default] not referenced. Skipping further processing.
+23:06:59,028 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [jsonConsoleAppender]
+23:06:59,029 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:06:59,484 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+23:06:59,485 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [jsonConsoleAppender] to Logger[ROOT]
+23:06:59,485 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@64fc6470 - End of configuration.
+23:06:59,486 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5cf3a7f9 - Registering current configuration as safe fallback point
+23:06:59,486 |-INFO in ch.qos.logback.classic.util.ContextInitializer@538f45f1 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 723 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+
+{&quot;@timestamp&quot;:&quot;2025-04-15T23:06:59.548778-05:00&quot;,&quot;@version&quot;:&quot;1&quot;,&quot;message&quot;:&quot;Detected Java version 17.0.11&quot;,&quot;logger_name&quot;:&quot;com.tngtech.archunit.core.PluginLoader&quot;,&quot;thread_name&quot;:&quot;Test worker&quot;,&quot;level&quot;:&quot;INFO&quot;,&quot;level_value&quot;:20000,&quot;application&quot;:&quot;technical_test_ms&quot;}
+</pre>
+</span>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>abr. 15, 2025 11:07:02 P. M. co.com.test.Utils findFiles
+INFO: begin -1, end 227, length 227
+abr. 15, 2025 11:07:02 P. M. co.com.test.Utils findFiles
+INFO: begin -1, end 227, length 227
+abr. 15, 2025 11:07:02 P. M. co.com.test.Utils findFiles
+INFO: begin -1, end 227, length 227
+abr. 15, 2025 11:07:02 P. M. co.com.test.Utils findFiles
+INFO: begin -1, end 227, length 227
+abr. 15, 2025 11:07:02 P. M. co.com.test.Utils findFiles
+INFO: begin -1, end 227, length 227
+abr. 15, 2025 11:07:02 P. M. co.com.test.Utils findFiles
+INFO: begin -1, end 227, length 227
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.13</a> at 15/04/2025, 11:07:03 p. m.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ProductAdapter.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">r2dbc-postgresql</a> &gt; <a href="index.source.html" class="el_package">co.com.test.r2dbc.product</a> &gt; <span class="el_source">ProductAdapter.java</span></div><h1>ProductAdapter.java</h1><pre class="source lang-java linenums">package co.com.test.r2dbc.product;
+
+import co.com.test.model.enums.TechnicalMessage;
+import co.com.test.model.exceptions.BusinessException;
+import co.com.test.model.exceptions.TechnicalException;
+import co.com.test.model.product.Product;
+import co.com.test.model.product.ProductParam;
+import co.com.test.model.product.ProductView;
+import co.com.test.model.product.gateways.ProductRepository;
+import co.com.test.r2dbc.mapper.ProductMapper;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.dao.DuplicateKeyException;
+import org.springframework.dao.TransientDataAccessException;
+import org.springframework.stereotype.Component;
+import reactor.core.publisher.Mono;
+
+import java.util.List;
+import java.util.Map;
+
+import static net.logstash.logback.argument.StructuredArguments.kv;
+
+
+<span class="fc" id="L24">@Slf4j</span>
+@Component
+@RequiredArgsConstructor
+public class ProductAdapter implements ProductRepository {
+
+    public static final String STATUS_ACTIVE = &quot;ACTIVE&quot;;
+    public static final String STATUS_DELETE = &quot;DELETE&quot;;
+    private final MyProductRepository myProductRepository;
+
+    @Override
+    public Mono&lt;Product&gt; save(ProductParam productParam) {
+<span class="fc" id="L35">        return myProductRepository.save(ProductMapper.INSTANCE.toProductEntity(productParam))</span>
+<span class="fc" id="L36">                .map(ProductMapper.INSTANCE::toProduct)</span>
+<span class="fc" id="L37">                .doOnSubscribe(subscription -&gt; log.info(&quot;Save product request&quot;, kv(&quot;saveProductRequest&quot;, productParam)))</span>
+<span class="fc" id="L38">                .doOnSuccess(product -&gt; log.info(&quot;Saved product response&quot;, kv(&quot;savedProductResponse&quot;, product)))</span>
+<span class="fc" id="L39">                .doOnError(throwable -&gt; log.error(&quot;Save product error&quot;, throwable))</span>
+<span class="fc" id="L40">                .onErrorMap(DuplicateKeyException.class, error -&gt;</span>
+<span class="fc" id="L41">                        new BusinessException(TechnicalMessage.PRODUCT_ALREADY_EXISTS))</span>
+<span class="fc" id="L42">                .onErrorMap(TransientDataAccessException.class, error -&gt;</span>
+<span class="fc" id="L43">                        new TechnicalException(error, TechnicalMessage.PRODUCT_CREATION_FAILED));</span>
+    }
+
+    @Override
+    public Mono&lt;Boolean&gt; delete(Long id) {
+<span class="fc" id="L48">        return myProductRepository.updateStatus(STATUS_DELETE, id)</span>
+<span class="fc" id="L49">                .doOnSubscribe(subscription -&gt; log.info(&quot;Delete product request&quot;,</span>
+<span class="fc" id="L50">                        kv(&quot;deleteProductRequest&quot;, Map.of(&quot;id&quot;, id))))</span>
+<span class="fc" id="L51">                .doOnSuccess(aBoolean -&gt; log.info(&quot;Deleted product response&quot;,</span>
+<span class="fc" id="L52">                        kv(&quot;deletedProductResponse&quot;, aBoolean)))</span>
+<span class="fc" id="L53">                .doOnError(throwable -&gt; log.error(&quot;Delete product error&quot;, throwable))</span>
+<span class="fc" id="L54">                .onErrorMap(TransientDataAccessException.class, error -&gt;</span>
+<span class="fc" id="L55">                        new TechnicalException(error, TechnicalMessage.PRODUCT_DELETE_FAILED));</span>
+    }
+
+    @Override
+    public Mono&lt;Product&gt; getById(Long id) {
+<span class="fc" id="L60">        return myProductRepository.findByIdAndStatus(id, STATUS_ACTIVE)</span>
+<span class="fc" id="L61">                .map(ProductMapper.INSTANCE::toProduct)</span>
+<span class="fc" id="L62">                .doOnSubscribe(subscription -&gt; log.info(&quot;Get product request&quot;,</span>
+<span class="fc" id="L63">                        kv(&quot;getProductRequest&quot;, Map.of(&quot;id&quot;, id))))</span>
+<span class="fc" id="L64">                .doOnSuccess(product -&gt; log.info(&quot;Get product response&quot;, kv(&quot;getProductResponse&quot;, product)))</span>
+<span class="fc" id="L65">                .doOnError(throwable -&gt; log.error(&quot;Get product error&quot;, throwable))</span>
+<span class="fc" id="L66">                .onErrorMap(TransientDataAccessException.class, error -&gt;</span>
+<span class="fc" id="L67">                        new TechnicalException(error, TechnicalMessage.PRODUCT_GET_FAILED));</span>
+    }
+
+    @Override
+    public Mono&lt;Boolean&gt; updateStock(Long id, int stock) {
+<span class="fc" id="L72">        return myProductRepository.updateStock(stock, id)</span>
+<span class="fc" id="L73">                .doOnSubscribe(subscription -&gt; log.info(&quot;Update Stock product request&quot;,</span>
+<span class="fc" id="L74">                        kv(&quot;updateStockProductRequest&quot;, Map.of(&quot;id&quot;, id, &quot;stock&quot;, stock))))</span>
+<span class="fc" id="L75">                .doOnSuccess(aBoolean -&gt; log.info(&quot;Updated Stock product response&quot;,</span>
+<span class="fc" id="L76">                        kv(&quot;updatedStockProductResponse&quot;, aBoolean)))</span>
+<span class="fc" id="L77">                .doOnError(throwable -&gt; log.error(&quot;Update Stock product error&quot;, throwable))</span>
+<span class="fc" id="L78">                .onErrorMap(TransientDataAccessException.class, error -&gt;</span>
+<span class="fc" id="L79">                        new TechnicalException(error, TechnicalMessage.PRODUCT_UPDATE_STOCK_FAILED));</span>
+    }
+
+    @Override
+    public Mono&lt;List&lt;ProductView&gt;&gt; getTopProductsByFranchise(Long franchiseId) {
+<span class="fc" id="L84">        return myProductRepository.findTopStockProductsByFranchise(franchiseId, STATUS_ACTIVE)</span>
+<span class="fc" id="L85">                .map(ProductMapper.INSTANCE::toProductView)</span>
+<span class="fc" id="L86">                .collectList()</span>
+<span class="fc" id="L87">                .doOnSubscribe(subscription -&gt; log.info(&quot;Get top products request&quot;,</span>
+<span class="fc" id="L88">                        kv(&quot;getTopProductsRequest&quot;, Map.of(&quot;franchiseId&quot;, franchiseId))))</span>
+<span class="fc" id="L89">                .doOnSuccess(product -&gt; log.info(&quot;Get top products response&quot;, kv(&quot;getTopProductsResponse&quot;, product)))</span>
+<span class="fc" id="L90">                .doOnError(throwable -&gt; log.error(&quot;Get top products error&quot;, throwable))</span>
+<span class="fc" id="L91">                .onErrorMap(TransientDataAccessException.class, error -&gt;</span>
+<span class="fc" id="L92">                        new TechnicalException(error, TechnicalMessage.PRODUCT_GET_TOP_FAILED));</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

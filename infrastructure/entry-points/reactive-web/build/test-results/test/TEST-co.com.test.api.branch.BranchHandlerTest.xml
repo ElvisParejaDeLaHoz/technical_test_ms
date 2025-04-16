@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.test.api.branch.BranchHandlerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-04-16T04:06:59.966Z" hostname="192.168.1.5" time="0.529">
+  <properties/>
+  <testcase name="shouldHandleUpdateBranchError()" classname="co.com.test.api.branch.BranchHandlerTest" time="0.436"/>
+  <testcase name="shouldCreateBranchSuccessfully()" classname="co.com.test.api.branch.BranchHandlerTest" time="0.062"/>
+  <testcase name="shouldReturnInvalidParametersErrorCreate()" classname="co.com.test.api.branch.BranchHandlerTest" time="0.011"/>
+  <testcase name="shouldHandleCreateBranchError()" classname="co.com.test.api.branch.BranchHandlerTest" time="0.007"/>
+  <testcase name="shouldUpdateBranchSuccessfully()" classname="co.com.test.api.branch.BranchHandlerTest" time="0.005"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2025-04-15T23:06:57.864-05:00  INFO 2300 --- [    Test worker] c.com.test.api.branch.BranchHandlerTest  : Starting BranchHandlerTest using Java 17.0.11 with PID 2300 (started by elvis.pareja in /Users/elvis.pareja/Documents/ELVIS_PAREJA/pruebas-tecnicas/technical_test_ms/infrastructure/entry-points/reactive-web)
+2025-04-15T23:06:57.870-05:00  INFO 2300 --- [    Test worker] c.com.test.api.branch.BranchHandlerTest  : No active profile set, falling back to 1 default profile: "default"
+2025-04-15T23:06:59.946-05:00  INFO 2300 --- [    Test worker] c.com.test.api.branch.BranchHandlerTest  : Started BranchHandlerTest in 2.524 seconds (process running for 5.992)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
