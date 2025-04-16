@@ -9,7 +9,7 @@ RUN adduser --system appuser
 RUN usermod -a -G appgroup appuser
 RUN chown -R appuser:appgroup /tmp
 
-COPY /applications/app-service/build/libs/git push -u origin main.jar technical_test_ms.jar
+COPY /applications/app-service/build/libs/technical_test_ms.jar technical_test_ms.jar
 RUN sh -c 'touch /technical_test_ms.jar'
 
 ENV TZ=America/Bogota
