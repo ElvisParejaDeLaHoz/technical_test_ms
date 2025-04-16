@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mutations partial="true">
-<mutation detected='false' status='NO_COVERAGE' numberOfTestsRun='0'><sourceFile>ObjectMapperConfig.java</sourceFile><mutatedClass>co.com.test.config.ObjectMapperConfig</mutatedClass><mutatedMethod>objectMapper</mutatedMethod><methodDescription>()Lorg/reactivecommons/utils/ObjectMapper;</methodDescription><lineNumber>13</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator</mutator><indexes><index>6</index></indexes><blocks><block>1</block></blocks><killingTest/><description>replaced return value with null for co/com/test/config/ObjectMapperConfig::objectMapper</description></mutation>
-</mutations>

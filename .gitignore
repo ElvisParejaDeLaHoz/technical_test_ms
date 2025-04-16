@@ -1,0 +1,14 @@
+# Para proyectos de Gradle
+/build/
+/gradle/
+
+# Archivos y carpetas de Eclipse o IntelliJ
+/.idea/
+/.target/
+/bin/
+/out/
+/class/
+
+# Otros archivos temporales
+*.log
+*.tmp
