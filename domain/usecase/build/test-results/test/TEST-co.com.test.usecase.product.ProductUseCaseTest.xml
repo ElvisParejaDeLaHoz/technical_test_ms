@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.com.test.usecase.product.ProductUseCaseTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-04-16T04:06:56.784Z" hostname="192.168.1.5" time="0.156">
+<testsuite name="co.com.test.usecase.product.ProductUseCaseTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-04-16T15:22:43" hostname="DESKTOP-EBIPM1M" time="1.128">
   <properties/>
-  <testcase name="shouldDeleteProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.067"/>
-  <testcase name="shouldUpdateStockProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.013"/>
-  <testcase name="shouldTopStockProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.011"/>
-  <testcase name="shouldReturnErrorCreateProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.007"/>
-  <testcase name="shouldErrorUpdateStockProductById()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.023"/>
-  <testcase name="shouldErrorUpdateStockProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.006"/>
-  <testcase name="shouldErrorTopStockProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.003"/>
-  <testcase name="shouldCreateProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.004"/>
-  <testcase name="shouldErrorDeleteProductById()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.004"/>
-  <testcase name="shouldErrorDeleteProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.008"/>
+  <testcase name="shouldDeleteProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.414"/>
+  <testcase name="shouldUpdateStockProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.274"/>
+  <testcase name="shouldTopStockProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.076"/>
+  <testcase name="shouldReturnErrorCreateProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.064"/>
+  <testcase name="shouldErrorUpdateStockProductById()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.224"/>
+  <testcase name="shouldErrorUpdateStockProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.005"/>
+  <testcase name="shouldErrorTopStockProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.004"/>
+  <testcase name="shouldCreateProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.027"/>
+  <testcase name="shouldErrorDeleteProductById()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.005"/>
+  <testcase name="shouldErrorDeleteProduct()" classname="co.com.test.usecase.product.ProductUseCaseTest" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.231s</div>
+<div class="counter">14.393s</div>
 <p>duration</p>
 </div>
 </td>
@@ -58,16 +58,16 @@
 </tr>
 </table>
 </div>
-<div class="tab-container">
+<div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#">Tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#">Standard output</a>
+<a href="#tab1">Standard output</a>
 </li>
 </ul>
-<div class="tab">
+<div id="tab0" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -79,53 +79,53 @@
 </thead>
 <tr>
 <td class="success">shouldReturnBranch()</td>
-<td class="success">1.185s</td>
+<td class="success">13.315s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenGetByTransientDataAccessException()</td>
-<td class="success">0.005s</td>
+<td class="success">0.023s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenSevingByDuplicity()</td>
-<td class="success">0.010s</td>
+<td class="success">0.348s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenSevingByTransientDataAccessException()</td>
-<td class="success">0.004s</td>
+<td class="success">0.280s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenUpdatingByDuplicity()</td>
-<td class="success">0.018s</td>
+<td class="success">0.028s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenUpdatingByTransientDataAccessException()</td>
-<td class="success">0.006s</td>
+<td class="success">0.388s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldSavedSuccessfully()</td>
-<td class="success">0.002s</td>
+<td class="success">0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldUpdatedSuccessfully()</td>
-<td class="success">0.001s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>23:06:57.674 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Get branch request
-23:06:57.683 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Get branch response
-23:06:57.704 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Update branch request
-23:06:57.704 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Update branch error
+<pre>10:22:39.846 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Get branch request
+10:22:40.071 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Get branch response
+10:22:40.651 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Update branch request
+10:22:40.652 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Update branch error
 org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at co.com.test.r2dbc.branch.BranchAdapterTest.shouldReturnErrorWhenUpdatingByDuplicity(BranchAdapterTest.java:146)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -213,8 +213,8 @@ org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:57.727 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Update branch request
-23:06:57.727 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Update branch error
+10:22:40.670 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Update branch request
+10:22:40.670 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Update branch error
 co.com.test.r2dbc.branch.BranchAdapterTest$3: An error has been occurred
 	at co.com.test.r2dbc.branch.BranchAdapterTest.shouldReturnErrorWhenUpdatingByTransientDataAccessException(BranchAdapterTest.java:163)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -302,8 +302,8 @@ co.com.test.r2dbc.branch.BranchAdapterTest$3: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:57.738 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Save branch request
-23:06:57.738 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Save branch error
+10:22:41.075 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Save branch request
+10:22:41.082 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Save branch error
 org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at co.com.test.r2dbc.branch.BranchAdapterTest.shouldReturnErrorWhenSevingByDuplicity(BranchAdapterTest.java:61)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -391,10 +391,10 @@ org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:57.745 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Save branch request
-23:06:57.745 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Saved branch response
-23:06:57.747 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Get branch request
-23:06:57.747 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Get branch error
+10:22:41.413 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Save branch request
+10:22:41.413 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Saved branch response
+10:22:41.420 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Get branch request
+10:22:41.420 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Get branch error
 co.com.test.r2dbc.branch.BranchAdapterTest$2: An error has been occurred
 	at co.com.test.r2dbc.branch.BranchAdapterTest.shouldReturnErrorWhenGetByTransientDataAccessException(BranchAdapterTest.java:107)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -482,8 +482,8 @@ co.com.test.r2dbc.branch.BranchAdapterTest$2: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:57.752 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Save branch request
-23:06:57.752 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Save branch error
+10:22:41.698 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Save branch request
+10:22:41.698 [Test worker] ERROR co.com.test.r2dbc.branch.BranchAdapter -- Save branch error
 co.com.test.r2dbc.branch.BranchAdapterTest$1: An error has been occurred
 	at co.com.test.r2dbc.branch.BranchAdapterTest.shouldReturnErrorWhenSevingByTransientDataAccessException(BranchAdapterTest.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -571,8 +571,8 @@ co.com.test.r2dbc.branch.BranchAdapterTest$1: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:57.757 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Update branch request
-23:06:57.757 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Updated branch response
+10:22:41.726 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Update branch request
+10:22:41.726 [Test worker] INFO co.com.test.r2dbc.branch.BranchAdapter -- Updated branch response
 </pre>
 </span>
 </div>
@@ -584,7 +584,7 @@ co.com.test.r2dbc.branch.BranchAdapterTest$1: An error has been occurred
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 15/04/2025, 11:06:58 p. m.</p>
+<a href="http://www.gradle.org">Gradle 8.12.1</a> at 16/04/2025, 10:22:49 a. m.</p>
 </div>
 </div>
 </body>

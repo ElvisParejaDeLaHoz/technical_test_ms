@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.092s</div>
+<div class="counter">0.863s</div>
 <p>duration</p>
 </div>
 </td>
@@ -58,16 +58,16 @@
 </tr>
 </table>
 </div>
-<div class="tab-container">
+<div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#">Tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#">Standard output</a>
+<a href="#tab1">Standard output</a>
 </li>
 </ul>
-<div class="tab">
+<div id="tab0" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -79,51 +79,51 @@
 </thead>
 <tr>
 <td class="success">shouldReturnErrorWhenGetByTransientDataAccessException()</td>
-<td class="success">0.004s</td>
+<td class="success">0.028s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenSevingByDuplicity()</td>
-<td class="success">0.010s</td>
+<td class="success">0.078s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenSevingByTransientDataAccessException()</td>
-<td class="success">0.004s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenUpdatingByDuplicity()</td>
-<td class="success">0.063s</td>
+<td class="success">0.641s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnErrorWhenUpdatingByTransientDataAccessException()</td>
-<td class="success">0.003s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldReturnFranchise()</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">shouldSavedSuccessfully()</td>
 <td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">shouldSavedSuccessfully()</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">shouldUpdatedSuccessfully()</td>
-<td class="success">0.002s</td>
+<td class="success">0.058s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>23:06:58.140 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
-23:06:58.140 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise error
+<pre>10:22:46.844 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
+10:22:46.844 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise error
 org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenUpdatingByDuplicity(FranchiseAdapterTest.java:141)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -211,8 +211,8 @@ org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.145 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
-23:06:58.145 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise error
+10:22:46.920 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
+10:22:46.921 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise error
 co.com.test.r2dbc.franchise.FranchiseAdapterTest$3: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenUpdatingByTransientDataAccessException(FranchiseAdapterTest.java:158)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -300,8 +300,8 @@ co.com.test.r2dbc.franchise.FranchiseAdapterTest$3: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.151 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
-23:06:58.151 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise error
+10:22:46.944 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
+10:22:46.944 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise error
 org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenSevingByDuplicity(FranchiseAdapterTest.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -389,10 +389,10 @@ org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.161 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
-23:06:58.161 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Saved franchise response
-23:06:58.165 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise request
-23:06:58.165 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise error
+10:22:47.045 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
+10:22:47.046 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Saved franchise response
+10:22:47.063 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise request
+10:22:47.065 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise error
 co.com.test.r2dbc.franchise.FranchiseAdapterTest$2: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenGetByTransientDataAccessException(FranchiseAdapterTest.java:103)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -480,8 +480,8 @@ co.com.test.r2dbc.franchise.FranchiseAdapterTest$2: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.171 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
-23:06:58.172 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise error
+10:22:47.089 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
+10:22:47.089 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise error
 co.com.test.r2dbc.franchise.FranchiseAdapterTest$1: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenSevingByTransientDataAccessException(FranchiseAdapterTest.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -569,10 +569,10 @@ co.com.test.r2dbc.franchise.FranchiseAdapterTest$1: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.176 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise request
-23:06:58.176 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise response
-23:06:58.178 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
-23:06:58.178 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Updated franchise response
+10:22:47.099 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise request
+10:22:47.100 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise response
+10:22:47.157 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
+10:22:47.158 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Updated franchise response
 </pre>
 </span>
 </div>
@@ -584,7 +584,7 @@ co.com.test.r2dbc.franchise.FranchiseAdapterTest$1: An error has been occurred
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 15/04/2025, 11:06:58 p. m.</p>
+<a href="http://www.gradle.org">Gradle 8.12.1</a> at 16/04/2025, 10:22:48 a. m.</p>
 </div>
 </div>
 </body>

@@ -15,6 +15,7 @@ public interface ProductMapper {
 <span class="fc" id="L15">    ProductMapper INSTANCE = Mappers.getMapper(ProductMapper.class);</span>
 
     @Mapping(target = &quot;id&quot;, ignore = true)
+    @Mapping(target = &quot;status&quot;, ignore = true)
     ProductEntity toProductEntity(ProductParam productParam);
 
     Product toProduct(ProductEntity productEntity);

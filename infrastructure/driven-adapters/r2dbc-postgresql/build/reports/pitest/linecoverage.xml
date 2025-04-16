@@ -34,17 +34,11 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-</tests>
-</block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$6(Lco/com/test/model/branch/Branch;)V' number='1'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='0'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
@@ -52,7 +46,19 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$6(Lco/com/test/model/branch/Branch;)V' number='2'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='3'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
@@ -60,7 +66,15 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='8'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='15'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='9'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
@@ -74,6 +88,10 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='10'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='17'><tests>
@@ -92,6 +110,10 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='11'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='18'><tests>
@@ -114,15 +136,8 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;init&gt;()V' number='0'><tests>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='4'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.branch.Branch' method='&lt;init&gt;(Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Long;)V' number='1'><tests>
@@ -133,22 +148,31 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;init&gt;()V' number='1'><tests>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='5'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='6'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='7'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='6'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='16'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='7'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='17'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
@@ -164,7 +188,15 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='18'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='9'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='19'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
@@ -172,11 +204,23 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='12'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='11'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='13'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='12'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='14'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
@@ -192,6 +236,10 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='15'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.branch.Branch' method='equals(Ljava/lang/Object;)Z' number='13'><tests>
@@ -228,6 +276,10 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;clinit&gt;()V' number='20'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapterTest' method='shouldReturnBranch()V' number='3'><tests>
@@ -416,20 +468,15 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='19'><tests>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='18'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='17'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='16'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.mapper.BranchMapperImpl' method='toBranch(Lco/com/test/r2dbc/model/BranchEntity;)Lco/com/test/model/branch/Branch;' number='0'><tests>
@@ -442,10 +489,6 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='20'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.branch.Branch' method='canEqual(Ljava/lang/Object;)Z' number='0'><tests>
@@ -650,92 +693,14 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='3'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='2'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='1'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='0'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='7'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='6'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='5'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='4'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
 <block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='3'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='11'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='2'><tests>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;init&gt;()V' number='1'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='10'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='1'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='9'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='0'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='8'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='15'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='14'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='13'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='&lt;clinit&gt;()V' number='12'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.model.BranchEntity' method='builder()Lco/com/test/r2dbc/model/BranchEntity$BranchEntityBuilder;' number='0'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
@@ -744,9 +709,44 @@
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
+<block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='2'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='1'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.BranchAdapter' method='lambda$get$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='0'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.model.BranchEntity' method='builder()Lco/com/test/r2dbc/model/BranchEntity$BranchEntityBuilder;' number='0'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnBranch()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
@@ -904,6 +904,24 @@
 <block classname='co.com.test.model.branch.Branch' method='toBuilder()Lco/com/test/model/branch/Branch$BranchBuilder;' number='3'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='save(Lco/com/test/r2dbc/model/BranchEntity;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$AqlBGdsU' method='save(Lco/com/test/r2dbc/model/BranchEntity;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
@@ -1124,24 +1142,6 @@
 <block classname='co.com.test.r2dbc.branch.BranchAdapter' method='update(Lco/com/test/model/branch/Branch;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='save(Lco/com/test/r2dbc/model/BranchEntity;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.branch.MyBranchRepository$MockitoMock$OSAG3ND0' method='save(Lco/com/test/r2dbc/model/BranchEntity;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldSavedSuccessfully()]'/>
 <test name='co.com.test.r2dbc.branch.BranchAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.branch.BranchAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
@@ -2349,7 +2349,29 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;init&gt;()V' number='0'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
@@ -2528,28 +2550,6 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
-</tests>
-</block>
 <block classname='co.com.test.r2dbc.franchise.FranchiseAdapter' method='lambda$update$12(Lorg/springframework/dao/DuplicateKeyException;)Ljava/lang/Throwable;' number='1'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
@@ -2582,26 +2582,8 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='save(Lco/com/test/r2dbc/model/FranchiseEntity;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
-</tests>
-</block>
 <block classname='co.com.test.r2dbc.mapper.FranchiseMapper' method='&lt;clinit&gt;()V' number='1'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='save(Lco/com/test/r2dbc/model/FranchiseEntity;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.mapper.FranchiseMapper' method='&lt;clinit&gt;()V' number='0'><tests>
@@ -2660,8 +2642,26 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='save(Lco/com/test/r2dbc/model/FranchiseEntity;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.franchise.FranchiseAdapterTest' method='shouldReturnErrorWhenUpdatingByDuplicity()V' number='14'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='save(Lco/com/test/r2dbc/model/FranchiseEntity;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.franchise.FranchiseAdapterTest' method='shouldReturnErrorWhenUpdatingByDuplicity()V' number='9'><tests>
@@ -2843,15 +2843,27 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='1'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='16'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='0'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='15'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='3'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='18'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='17'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='20'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='19'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
@@ -2866,10 +2878,6 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='2'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
 <block classname='co.com.test.r2dbc.franchise.FranchiseAdapterTest' method='buildFranchise()Lco/com/test/model/franchise/Franchise;' number='2'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByTransientDataAccessException()]'/>
@@ -2878,7 +2886,7 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='5'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='8'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
@@ -2890,7 +2898,7 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='4'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='7'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
@@ -2902,7 +2910,7 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='7'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='10'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
@@ -2914,11 +2922,11 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='6'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='9'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='9'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='12'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
@@ -2930,7 +2938,7 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='8'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='11'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
@@ -2942,7 +2950,7 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='11'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='14'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
@@ -2954,43 +2962,7 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='10'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='13'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='12'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='15'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='14'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='17'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='16'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='19'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='18'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='&lt;clinit&gt;()V' number='20'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='13'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
@@ -3018,6 +2990,34 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldSavedSuccessfully()]'/>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='6'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='&lt;clinit&gt;()V' number='5'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenUpdatingByDuplicity()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.franchise.FranchiseAdapterTest$3' method='&lt;init&gt;(Lco/com/test/r2dbc/franchise/FranchiseAdapterTest;Ljava/lang/String;)V' number='0'><tests>
@@ -3664,12 +3664,17 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<block classname='co.com.test.r2dbc.franchise.FranchiseAdapter' method='lambda$findById$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='3'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.franchise.FranchiseAdapter' method='lambda$findById$5(Ljava/lang/Long;Lorg/reactivestreams/Subscription;)V' number='3'><tests>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$2M7PhHAY' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
 </tests>
@@ -3725,11 +3730,6 @@
 </block>
 <block classname='co.com.test.r2dbc.franchise.FranchiseAdapterTest' method='shouldReturnErrorWhenGetByTransientDataAccessException()V' number='5'><tests>
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.franchise.MyFranchiseRepository$MockitoMock$iNTdVg94' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldReturnFranchise()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.franchise.FranchiseAdapter' method='lambda$findById$7(Ljava/lang/Throwable;)V' number='0'><tests>
@@ -3988,22 +3988,6 @@
 <test name='co.com.test.r2dbc.franchise.FranchiseAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.franchise.FranchiseAdapterTest]/[method:shouldUpdatedSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='11'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='12'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='13'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='14'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
 <block classname='co.com.test.r2dbc.product.ProductAdapter' method='&lt;init&gt;(Lco/com/test/r2dbc/product/MyProductRepository;)V' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
@@ -4016,18 +4000,6 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='7'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='8'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='9'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.product.ProductAdapter' method='&lt;init&gt;(Lco/com/test/r2dbc/product/MyProductRepository;)V' number='1'><tests>
@@ -4044,14 +4016,6 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='10'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='3'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
 <block classname='co.com.test.model.product.Product' method='builder()Lco/com/test/model/product/Product$ProductBuilder;' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
@@ -4061,22 +4025,6 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='4'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='5'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='6'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='0'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.product.Product' method='builder()Lco/com/test/model/product/Product$ProductBuilder;' number='1'><tests>
@@ -4090,67 +4038,71 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='1'><tests>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='2'><tests>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='1'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='23'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='24'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='19'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='20'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='21'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='22'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='15'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='16'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='17'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;clinit&gt;()V' number='18'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='updateStock(ILjava/lang/Long;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='updateStock(ILjava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='updateStock(ILjava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='updateStock(ILjava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='updateStock(ILjava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='updateStock(ILjava/lang/Long;)Lreactor/core/publisher/Mono;' number='2'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='16'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='17'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='14'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='15'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='12'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='13'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='10'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='11'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='8'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='9'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='6'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.product.Product' method='getId()Ljava/lang/Long;' number='0'><tests>
@@ -4164,18 +4116,24 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetTopStockByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='7'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='5'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.product.Product$ProductBuilder' method='&lt;init&gt;()V' number='1'><tests>
@@ -4208,6 +4166,18 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='24'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='22'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='23'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.product.Product$ProductBuilder' method='id(Ljava/lang/Long;)Lco/com/test/model/product/Product$ProductBuilder;' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
@@ -4219,7 +4189,15 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='20'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.product.ProductAdapter' method='lambda$updateStock$16(Lorg/springframework/dao/TransientDataAccessException;)Ljava/lang/Throwable;' number='0'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='21'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
@@ -4231,7 +4209,15 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='18'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.product.ProductAdapter' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;clinit&gt;()V' number='19'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 </tests>
 </block>
@@ -4419,18 +4405,7 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.Product$ProductBuilder' method='branchId(Ljava/lang/Long;)Lco/com/test/model/product/Product$ProductBuilder;' number='0'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetTopStockByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;init&gt;()V' number='0'><tests>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
@@ -4444,6 +4419,17 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.product.Product$ProductBuilder' method='branchId(Ljava/lang/Long;)Lco/com/test/model/product/Product$ProductBuilder;' number='0'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetTopStockByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.product.Product' method='getStock()I' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
@@ -4451,7 +4437,7 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='&lt;init&gt;()V' number='1'><tests>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;init&gt;()V' number='1'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
@@ -4503,6 +4489,20 @@
 </block>
 <block classname='co.com.test.model.product.Product' method='toBuilder()Lco/com/test/model/product/Product$ProductBuilder;' number='2'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetTopStockByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenUpdateStockByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldUpdatedStockSuccessfully()]'/>
 </tests>
 </block>
@@ -4767,16 +4767,6 @@
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.mapper.ProductMapperImpl' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='findByIdAndStatus(Ljava/lang/Long;Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='findByIdAndStatus(Ljava/lang/Long;Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
 </tests>
 </block>
@@ -5235,11 +5225,21 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='findByIdAndStatus(Ljava/lang/Long;Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.model.ProductEntity$ProductEntityBuilder' method='&lt;init&gt;()V' number='1'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='findByIdAndStatus(Ljava/lang/Long;Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnProduct()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.product.ProductAdapterTest' method='shouldReturnErrorWhenSevingByDuplicity()V' number='16'><tests>
@@ -5314,6 +5314,12 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='save(Lco/com/test/r2dbc/model/ProductEntity;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.product.ProductParam' method='builder()Lco/com/test/model/product/ProductParam$ProductParamBuilder;' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
@@ -5321,6 +5327,12 @@
 </tests>
 </block>
 <block classname='co.com.test.model.product.ProductParam' method='getBranchId()Ljava/lang/Long;' number='0'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='save(Lco/com/test/r2dbc/model/ProductEntity;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
@@ -5545,18 +5557,6 @@
 </tests>
 </block>
 <block classname='co.com.test.model.product.ProductParam' method='&lt;init&gt;(Ljava/lang/Long;Ljava/lang/String;I)V' number='1'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='save(Lco/com/test/r2dbc/model/ProductEntity;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='save(Lco/com/test/r2dbc/model/ProductEntity;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByDuplicity()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenSevingByTransientDataAccessException()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldSaveProduct()]'/>
@@ -5826,16 +5826,6 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
 </tests>
 </block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='findTopStockProductsByFranchise(Ljava/lang/Long;Ljava/lang/String;)Lreactor/core/publisher/Flux;' number='0'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetTopStockByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='findTopStockProductsByFranchise(Ljava/lang/Long;Ljava/lang/String;)Lreactor/core/publisher/Flux;' number='1'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetTopStockByTransientDataAccessException()]'/>
-</tests>
-</block>
 <block classname='co.com.test.model.product.ProductView$ProductViewBuilder' method='franchiseId(Ljava/lang/Long;)Lco/com/test/model/product/ProductView$ProductViewBuilder;' number='0'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
 </tests>
@@ -5884,8 +5874,18 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='findTopStockProductsByFranchise(Ljava/lang/Long;Ljava/lang/String;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetTopStockByTransientDataAccessException()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.mapper.ProductMapperImpl' method='toProductView(Lco/com/test/r2dbc/model/dto/ProductViewDTO;)Lco/com/test/model/product/ProductView;' number='15'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='findTopStockProductsByFranchise(Ljava/lang/Long;Ljava/lang/String;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldGetTopStockSuccessfully()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenGetTopStockByTransientDataAccessException()]'/>
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.mapper.ProductMapperImpl' method='toProductView(Lco/com/test/r2dbc/model/dto/ProductViewDTO;)Lco/com/test/model/product/ProductView;' number='10'><tests>
@@ -6443,6 +6443,16 @@
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
 </tests>
 </block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='updateStatus(Ljava/lang/String;Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
+</tests>
+</block>
+<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$OgaR8ljX' method='updateStatus(Ljava/lang/String;Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
+<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
+</tests>
+</block>
 <block classname='co.com.test.r2dbc.product.ProductAdapterTest' method='shouldReturnErrorWhenDeleteByTransientDataAccessException()V' number='11'><tests>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
 </tests>
@@ -6493,16 +6503,6 @@
 </tests>
 </block>
 <block classname='co.com.test.r2dbc.product.ProductAdapterTest$4' method='&lt;init&gt;(Lco/com/test/r2dbc/product/ProductAdapterTest;Ljava/lang/String;)V' number='0'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='updateStatus(Ljava/lang/String;Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
-</tests>
-</block>
-<block classname='co.com.test.r2dbc.product.MyProductRepository$MockitoMock$IQg6MIKP' method='updateStatus(Ljava/lang/String;Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldDeletedStockSuccessfully()]'/>
 <test name='co.com.test.r2dbc.product.ProductAdapterTest.[engine:junit-jupiter]/[class:co.com.test.r2dbc.product.ProductAdapterTest]/[method:shouldReturnErrorWhenDeleteByTransientDataAccessException()]'/>
 </tests>
 </block>

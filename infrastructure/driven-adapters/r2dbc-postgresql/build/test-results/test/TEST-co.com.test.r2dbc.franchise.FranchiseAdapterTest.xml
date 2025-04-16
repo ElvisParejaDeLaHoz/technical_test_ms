@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.com.test.r2dbc.franchise.FranchiseAdapterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-04-16T04:06:58.080Z" hostname="192.168.1.5" time="0.098">
+<testsuite name="co.com.test.r2dbc.franchise.FranchiseAdapterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-04-16T15:22:46" hostname="DESKTOP-EBIPM1M" time="0.894">
   <properties/>
-  <testcase name="shouldReturnErrorWhenUpdatingByDuplicity()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.063"/>
-  <testcase name="shouldReturnErrorWhenUpdatingByTransientDataAccessException()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.003"/>
-  <testcase name="shouldReturnErrorWhenSevingByDuplicity()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.01"/>
-  <testcase name="shouldSavedSuccessfully()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.004"/>
-  <testcase name="shouldReturnErrorWhenGetByTransientDataAccessException()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.004"/>
-  <testcase name="shouldReturnErrorWhenSevingByTransientDataAccessException()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.004"/>
-  <testcase name="shouldReturnFranchise()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.002"/>
-  <testcase name="shouldUpdatedSuccessfully()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.002"/>
-  <system-out><![CDATA[23:06:58.140 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
-23:06:58.140 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise error
+  <testcase name="shouldReturnErrorWhenUpdatingByDuplicity()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.641"/>
+  <testcase name="shouldReturnErrorWhenUpdatingByTransientDataAccessException()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.013"/>
+  <testcase name="shouldReturnErrorWhenSevingByDuplicity()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.078"/>
+  <testcase name="shouldSavedSuccessfully()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.033"/>
+  <testcase name="shouldReturnErrorWhenGetByTransientDataAccessException()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.028"/>
+  <testcase name="shouldReturnErrorWhenSevingByTransientDataAccessException()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.008"/>
+  <testcase name="shouldReturnFranchise()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.004"/>
+  <testcase name="shouldUpdatedSuccessfully()" classname="co.com.test.r2dbc.franchise.FranchiseAdapterTest" time="0.058"/>
+  <system-out><![CDATA[10:22:46.844 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
+10:22:46.844 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise error
 org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenUpdatingByDuplicity(FranchiseAdapterTest.java:141)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -98,8 +98,8 @@ org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.145 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
-23:06:58.145 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise error
+10:22:46.920 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
+10:22:46.921 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise error
 co.com.test.r2dbc.franchise.FranchiseAdapterTest$3: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenUpdatingByTransientDataAccessException(FranchiseAdapterTest.java:158)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -187,8 +187,8 @@ co.com.test.r2dbc.franchise.FranchiseAdapterTest$3: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.151 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
-23:06:58.151 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise error
+10:22:46.944 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
+10:22:46.944 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise error
 org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenSevingByDuplicity(FranchiseAdapterTest.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -276,10 +276,10 @@ org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.161 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
-23:06:58.161 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Saved franchise response
-23:06:58.165 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise request
-23:06:58.165 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise error
+10:22:47.045 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
+10:22:47.046 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Saved franchise response
+10:22:47.063 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise request
+10:22:47.065 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise error
 co.com.test.r2dbc.franchise.FranchiseAdapterTest$2: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenGetByTransientDataAccessException(FranchiseAdapterTest.java:103)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -367,8 +367,8 @@ co.com.test.r2dbc.franchise.FranchiseAdapterTest$2: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.171 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
-23:06:58.172 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise error
+10:22:47.089 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise request
+10:22:47.089 [Test worker] ERROR co.com.test.r2dbc.franchise.FranchiseAdapter -- Save franchise error
 co.com.test.r2dbc.franchise.FranchiseAdapterTest$1: An error has been occurred
 	at co.com.test.r2dbc.franchise.FranchiseAdapterTest.shouldReturnErrorWhenSevingByTransientDataAccessException(FranchiseAdapterTest.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -456,10 +456,10 @@ co.com.test.r2dbc.franchise.FranchiseAdapterTest$1: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.176 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise request
-23:06:58.176 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise response
-23:06:58.178 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
-23:06:58.178 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Updated franchise response
+10:22:47.099 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise request
+10:22:47.100 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Get by Id franchise response
+10:22:47.157 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Update franchise request
+10:22:47.158 [Test worker] INFO co.com.test.r2dbc.franchise.FranchiseAdapter -- Updated franchise response
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.com.test.r2dbc.product.ProductAdapterTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-04-16T04:06:58.187Z" hostname="192.168.1.5" time="0.147">
+<testsuite name="co.com.test.r2dbc.product.ProductAdapterTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-04-16T15:22:47" hostname="DESKTOP-EBIPM1M" time="0.741">
   <properties/>
-  <testcase name="shouldReturnErrorWhenUpdateStockByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.069"/>
-  <testcase name="shouldUpdatedStockSuccessfully()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.003"/>
-  <testcase name="shouldReturnProduct()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.015"/>
-  <testcase name="shouldReturnErrorWhenSevingByDuplicity()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.004"/>
-  <testcase name="shouldReturnErrorWhenGetByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.005"/>
-  <testcase name="shouldGetTopStockSuccessfully()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.019"/>
-  <testcase name="shouldReturnErrorWhenDeleteByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.007"/>
-  <testcase name="shouldSaveProduct()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.003"/>
-  <testcase name="shouldDeletedStockSuccessfully()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.002"/>
-  <testcase name="shouldReturnErrorWhenSevingByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.006"/>
-  <testcase name="shouldReturnErrorWhenGetTopStockByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.007"/>
-  <system-out><![CDATA[23:06:58.254 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Update Stock product request
-23:06:58.255 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Update Stock product error
+  <testcase name="shouldReturnErrorWhenUpdateStockByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.213"/>
+  <testcase name="shouldUpdatedStockSuccessfully()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.004"/>
+  <testcase name="shouldReturnProduct()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.335"/>
+  <testcase name="shouldReturnErrorWhenSevingByDuplicity()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.009"/>
+  <testcase name="shouldReturnErrorWhenGetByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.046"/>
+  <testcase name="shouldGetTopStockSuccessfully()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.045"/>
+  <testcase name="shouldReturnErrorWhenDeleteByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.021"/>
+  <testcase name="shouldSaveProduct()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.005"/>
+  <testcase name="shouldDeletedStockSuccessfully()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.004"/>
+  <testcase name="shouldReturnErrorWhenSevingByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.004"/>
+  <testcase name="shouldReturnErrorWhenGetTopStockByTransientDataAccessException()" classname="co.com.test.r2dbc.product.ProductAdapterTest" time="0.008"/>
+  <system-out><![CDATA[10:22:47.368 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Update Stock product request
+10:22:47.369 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Update Stock product error
 co.com.test.r2dbc.product.ProductAdapterTest$3: An error has been occurred
 	at co.com.test.r2dbc.product.ProductAdapterTest.shouldReturnErrorWhenUpdateStockByTransientDataAccessException(ProductAdapterTest.java:150)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -101,12 +101,12 @@ co.com.test.r2dbc.product.ProductAdapterTest$3: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.259 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Update Stock product request
-23:06:58.259 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Updated Stock product response
-23:06:58.274 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get product request
-23:06:58.275 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get product response
-23:06:58.278 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Save product request
-23:06:58.279 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Save product error
+10:22:47.396 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Update Stock product request
+10:22:47.396 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Updated Stock product response
+10:22:47.731 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get product request
+10:22:47.732 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get product response
+10:22:47.743 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Save product request
+10:22:47.743 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Save product error
 org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at co.com.test.r2dbc.product.ProductAdapterTest.shouldReturnErrorWhenSevingByDuplicity(ProductAdapterTest.java:70)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -194,8 +194,8 @@ org.springframework.dao.DuplicateKeyException: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.284 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get product request
-23:06:58.284 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Get product error
+10:22:47.792 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get product request
+10:22:47.792 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Get product error
 co.com.test.r2dbc.product.ProductAdapterTest$2: An error has been occurred
 	at co.com.test.r2dbc.product.ProductAdapterTest.shouldReturnErrorWhenGetByTransientDataAccessException(ProductAdapterTest.java:117)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -283,10 +283,10 @@ co.com.test.r2dbc.product.ProductAdapterTest$2: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.305 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get top products request
-23:06:58.305 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get top products response
-23:06:58.311 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Delete product request
-23:06:58.311 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Delete product error
+10:22:47.841 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get top products request
+10:22:47.841 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get top products response
+10:22:47.876 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Delete product request
+10:22:47.878 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Delete product error
 co.com.test.r2dbc.product.ProductAdapterTest$4: An error has been occurred
 	at co.com.test.r2dbc.product.ProductAdapterTest.shouldReturnErrorWhenDeleteByTransientDataAccessException(ProductAdapterTest.java:165)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -374,12 +374,12 @@ co.com.test.r2dbc.product.ProductAdapterTest$4: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.317 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Save product request
-23:06:58.317 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Saved product response
-23:06:58.320 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Delete product request
-23:06:58.320 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Deleted product response
-23:06:58.326 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Save product request
-23:06:58.326 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Save product error
+10:22:47.895 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Save product request
+10:22:47.895 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Saved product response
+10:22:47.899 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Delete product request
+10:22:47.900 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Deleted product response
+10:22:47.904 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Save product request
+10:22:47.904 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Save product error
 co.com.test.r2dbc.product.ProductAdapterTest$1: An error has been occurred
 	at co.com.test.r2dbc.product.ProductAdapterTest.shouldReturnErrorWhenSevingByTransientDataAccessException(ProductAdapterTest.java:88)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -467,8 +467,8 @@ co.com.test.r2dbc.product.ProductAdapterTest$1: An error has been occurred
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-23:06:58.332 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get top products request
-23:06:58.332 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Get top products error
+10:22:47.916 [Test worker] INFO co.com.test.r2dbc.product.ProductAdapter -- Get top products request
+10:22:47.917 [Test worker] ERROR co.com.test.r2dbc.product.ProductAdapter -- Get top products error
 co.com.test.r2dbc.product.ProductAdapterTest$5: An error has been occurred
 	at co.com.test.r2dbc.product.ProductAdapterTest.shouldReturnErrorWhenGetTopStockByTransientDataAccessException(ProductAdapterTest.java:264)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

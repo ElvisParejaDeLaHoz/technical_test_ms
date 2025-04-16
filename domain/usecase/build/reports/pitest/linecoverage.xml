@@ -282,6 +282,10 @@
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.branch.Branch' method='equals(Ljava/lang/Object;)Z' number='20'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 </tests>
@@ -302,11 +306,31 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.branch.BranchParam$BranchParamBuilder' method='franchiseId(Ljava/lang/Long;)Lco/com/test/model/branch/BranchParam$BranchParamBuilder;' number='0'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorCreateBranch()]'/>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='&lt;clinit&gt;()V' number='5'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.branch.BranchParam' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/Long;)V' number='1'><tests>
@@ -328,14 +352,6 @@
 </tests>
 </block>
 <block classname='co.com.test.model.enums.TechnicalMessage' method='&lt;clinit&gt;()V' number='2'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='save(Lco/com/test/model/branch/BranchParam;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='save(Lco/com/test/model/branch/BranchParam;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 </tests>
 </block>
@@ -419,6 +435,13 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorCreateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.branch.Branch$BranchBuilder' method='build()Lco/com/test/model/branch/Branch;' number='1'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
@@ -446,30 +469,10 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='&lt;clinit&gt;()V' number='3'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='&lt;clinit&gt;()V' number='4'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='&lt;clinit&gt;()V' number='1'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='&lt;clinit&gt;()V' number='2'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-</tests>
-</block>
 <block classname='co.com.test.model.branch.Branch$BranchBuilder' method='name(Ljava/lang/String;)Lco/com/test/model/branch/Branch$BranchBuilder;' number='0'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='&lt;clinit&gt;()V' number='5'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.exceptions.TechnicalTestException' method='&lt;init&gt;(Lco/com/test/model/enums/TechnicalMessage;)V' number='1'><tests>
@@ -508,7 +511,11 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='&lt;clinit&gt;()V' number='0'><tests>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='save(Lco/com/test/model/branch/BranchParam;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='save(Lco/com/test/model/branch/BranchParam;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 </tests>
 </block>
@@ -526,6 +533,20 @@
 </block>
 <block classname='co.com.test.usecase.branch.BranchUseCaseTest' method='shouldCreateBranch()V' number='24'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorCreateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorCreateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.usecase.branch.BranchUseCaseTest' method='shouldCreateBranch()V' number='28'><tests>
@@ -605,22 +626,8 @@
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorCreateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
-</tests>
-</block>
 <block classname='co.com.test.usecase.branch.BranchUseCaseTest' method='shouldCreateBranch()V' number='14'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorCreateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.usecase.branch.BranchUseCaseTest' method='shouldCreateBranch()V' number='13'><tests>
@@ -720,13 +727,6 @@
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorCreateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.enums.TechnicalMessage' method='&lt;clinit&gt;()V' number='21'><tests>
@@ -830,17 +830,17 @@
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldCreateBranch()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='get(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='get(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
-<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
-</tests>
-</block>
 <block classname='co.com.test.model.branch.BranchParam' method='getName()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='get(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
+<test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='get(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldReturnErrorUpdateBranch()]'/>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
 </tests>
@@ -1129,11 +1129,11 @@
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='update(Lco/com/test/model/branch/Branch;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='update(Lco/com/test/model/branch/Branch;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$INRwNtBn' method='update(Lco/com/test/model/branch/Branch;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<block classname='co.com.test.model.branch.gateways.BranchRepository$MockitoMock$WdiTuI6N' method='update(Lco/com/test/model/branch/Branch;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.usecase.branch.BranchUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.branch.BranchUseCaseTest]/[method:shouldUpdateBranch()]'/>
 </tests>
 </block>
@@ -1273,11 +1273,23 @@
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
 <block classname='co.com.test.usecase.franchise.FranchiseUseCaseTest' method='shouldUpdateFranchise()V' number='26'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.franchise.Franchise' method='toBuilder()Lco/com/test/model/franchise/Franchise$FranchiseBuilder;' number='2'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
@@ -1439,18 +1451,8 @@
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
 <block classname='co.com.test.model.franchise.Franchise' method='equals(Ljava/lang/Object;)Z' number='8'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
@@ -1474,6 +1476,12 @@
 </tests>
 </block>
 <block classname='co.com.test.model.franchise.Franchise' method='equals(Ljava/lang/Object;)Z' number='0'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
@@ -1506,14 +1514,6 @@
 </tests>
 </block>
 <block classname='co.com.test.usecase.franchise.FranchiseUseCase' method='lambda$update$0(Lco/com/test/model/franchise/FranchiseParam;Lco/com/test/model/franchise/Franchise;)Lreactor/core/publisher/Mono;' number='5'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='update(Lco/com/test/model/franchise/Franchise;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='update(Lco/com/test/model/franchise/Franchise;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
@@ -1565,20 +1565,8 @@
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
 <block classname='co.com.test.model.franchise.FranchiseParam$FranchiseParamBuilder' method='name(Ljava/lang/String;)Lco/com/test/model/franchise/FranchiseParam$FranchiseParamBuilder;' number='0'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
@@ -1630,9 +1618,41 @@
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='&lt;clinit&gt;()V' number='5'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.franchise.Franchise' method='getId()Ljava/lang/Long;' number='0'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='update(Lco/com/test/model/franchise/Franchise;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='update(Lco/com/test/model/franchise/Franchise;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
@@ -1690,18 +1710,22 @@
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='findById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
+<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
+</tests>
+</block>
 <block classname='co.com.test.usecase.franchise.FranchiseUseCase' method='getById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
 <block classname='co.com.test.usecase.franchise.FranchiseUseCase' method='getById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
@@ -1727,30 +1751,6 @@
 </tests>
 </block>
 <block classname='co.com.test.usecase.franchise.FranchiseUseCase' method='update(Lco/com/test/model/franchise/FranchiseParam;Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='5'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='&lt;clinit&gt;()V' number='4'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='&lt;clinit&gt;()V' number='5'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='&lt;clinit&gt;()V' number='2'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='&lt;clinit&gt;()V' number='3'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='&lt;clinit&gt;()V' number='0'><tests>
-<test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='&lt;clinit&gt;()V' number='1'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldUpdateFranchise()]'/>
 </tests>
 </block>
@@ -1822,11 +1822,11 @@
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldReturnFranchise()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='save(Lco/com/test/model/franchise/FranchiseParam;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='save(Lco/com/test/model/franchise/FranchiseParam;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$NSirTMRF' method='save(Lco/com/test/model/franchise/FranchiseParam;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<block classname='co.com.test.model.franchise.gateways.FranchiseRepository$MockitoMock$gEX0c53g' method='save(Lco/com/test/model/franchise/FranchiseParam;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
 </tests>
 </block>
@@ -1906,45 +1906,35 @@
 <test name='co.com.test.usecase.franchise.FranchiseUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.franchise.FranchiseUseCaseTest]/[method:shouldCreateFranchise()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorTopStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldReturnErrorCreateProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorTopStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldReturnErrorCreateProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;clinit&gt;()V' number='3'><tests>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;clinit&gt;()V' number='2'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;clinit&gt;()V' number='2'><tests>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;clinit&gt;()V' number='3'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;clinit&gt;()V' number='1'><tests>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;clinit&gt;()V' number='0'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;clinit&gt;()V' number='0'><tests>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;clinit&gt;()V' number='6'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;clinit&gt;()V' number='7'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;clinit&gt;()V' number='5'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
@@ -1954,10 +1944,6 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;clinit&gt;()V' number='7'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='buildProduct()Lco/com/test/model/product/Product;' number='4'><tests>
@@ -1976,10 +1962,6 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;clinit&gt;()V' number='6'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-</tests>
-</block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='buildProduct()Lco/com/test/model/product/Product;' number='7'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
@@ -1996,20 +1978,12 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;clinit&gt;()V' number='5'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-</tests>
-</block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='buildProduct()Lco/com/test/model/product/Product;' number='6'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='&lt;clinit&gt;()V' number='4'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='buildProduct()Lco/com/test/model/product/Product;' number='8'><tests>
@@ -2092,26 +2066,8 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='getById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='shouldDeleteProduct()V' number='20'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='getById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='setUp()V' number='0'><tests>
@@ -2161,6 +2117,19 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorTopStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldReturnErrorCreateProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
+</tests>
+</block>
 <block classname='co.com.test.usecase.product.ProductUseCase' method='lambda$delete$2(Ljava/lang/Long;Lco/com/test/model/product/Product;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
@@ -2168,6 +2137,19 @@
 </block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='shouldDeleteProduct()V' number='19'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorTopStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldReturnErrorCreateProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
 <block classname='co.com.test.usecase.product.ProductUseCase' method='lambda$delete$2(Ljava/lang/Long;Lco/com/test/model/product/Product;)Lreactor/core/publisher/Mono;' number='0'><tests>
@@ -2201,11 +2183,6 @@
 </block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='shouldDeleteProduct()V' number='14'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='delete(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
 </tests>
 </block>
 <block classname='co.com.test.usecase.product.ProductUseCase' method='delete(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='4'><tests>
@@ -2280,19 +2257,6 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorTopStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldReturnErrorCreateProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
 <block classname='co.com.test.usecase.product.ProductUseCaseTest' method='shouldDeleteProduct()V' number='0'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 </tests>
@@ -2313,7 +2277,25 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='delete(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;)V' number='0'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorTopStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldReturnErrorCreateProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='delete(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='delete(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
 </tests>
@@ -2418,11 +2400,29 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='getById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.product.Product$ProductBuilder' method='&lt;init&gt;()V' number='1'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='getById(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorDeleteProductById()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProductById()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
@@ -2640,6 +2640,21 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='updateStock(Ljava/lang/Long;I)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='updateStock(Ljava/lang/Long;I)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='updateStock(Ljava/lang/Long;I)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.product.Product' method='getStock()I' number='0'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
@@ -2720,26 +2735,19 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='updateStock(Ljava/lang/Long;I)Lreactor/core/publisher/Mono;' number='2'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='updateStock(Ljava/lang/Long;I)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='updateStock(Ljava/lang/Long;I)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorUpdateStockProduct()]'/>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldUpdateStockProduct()]'/>
-</tests>
-</block>
 <block classname='co.com.test.model.product.ProductView' method='builder()Lco/com/test/model/product/ProductView$ProductViewBuilder;' number='1'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
 </tests>
 </block>
 <block classname='co.com.test.model.product.ProductView' method='builder()Lco/com/test/model/product/ProductView$ProductViewBuilder;' number='0'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='getTopProductsByFranchise(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='getTopProductsByFranchise(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
 </tests>
 </block>
@@ -2881,10 +2889,6 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
 </tests>
 </block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='getTopProductsByFranchise(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
-</tests>
-</block>
 <block classname='co.com.test.model.product.ProductView$ProductViewBuilder' method='franchiseId(Ljava/lang/Long;)Lco/com/test/model/product/ProductView$ProductViewBuilder;' number='0'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
 </tests>
@@ -2894,10 +2898,6 @@
 </tests>
 </block>
 <block classname='co.com.test.usecase.product.ProductUseCase' method='lambda$getTopStockProductsByFranchise$6(Ljava/lang/Long;Lco/com/test/model/franchise/Franchise;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='getTopProductsByFranchise(Ljava/lang/Long;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldTopStockProduct()]'/>
 </tests>
 </block>
@@ -3522,6 +3522,14 @@
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldErrorTopStockProduct()]'/>
 </tests>
 </block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='save(Lco/com/test/model/product/ProductParam;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
+</tests>
+</block>
+<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$tf4VAoQl' method='save(Lco/com/test/model/product/ProductParam;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
+</tests>
+</block>
 <block classname='co.com.test.model.product.Product' method='equals(Ljava/lang/Object;)Z' number='11'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
 </tests>
@@ -3679,14 +3687,6 @@
 </tests>
 </block>
 <block classname='co.com.test.model.product.Product' method='equals(Ljava/lang/Object;)Z' number='21'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='save(Lco/com/test/model/product/ProductParam;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
-</tests>
-</block>
-<block classname='co.com.test.model.product.gateways.ProductRepository$MockitoMock$WfN2U6Zo' method='save(Lco/com/test/model/product/ProductParam;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.test.usecase.product.ProductUseCaseTest.[engine:junit-jupiter]/[class:co.com.test.usecase.product.ProductUseCaseTest]/[method:shouldCreateProduct()]'/>
 </tests>
 </block>

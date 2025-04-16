@@ -1191,15 +1191,11 @@
 <test name='co.com.test.api.product.ProductHandlerTest.[engine:junit-jupiter]/[class:co.com.test.api.product.ProductHandlerTest]/[method:shouldReturnInvalidParametersErrorCreate()]'/>
 </tests>
 </block>
-<block classname='co.com.test.api.RouterRest$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='7'><tests>
+<block classname='co.com.test.api.RouterRest$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='11'><tests>
 <test name='co.com.test.api.branch.BranchHandlerTest.[engine:junit-jupiter]/[class:co.com.test.api.branch.BranchHandlerTest]/[method:shouldHandleUpdateBranchError()]'/>
 </tests>
 </block>
 <block classname='co.com.test.api.RouterRest$$SpringCGLIB$$FastClass$$0' method='&lt;init&gt;(Ljava/lang/Class;)V' number='0'><tests>
-<test name='co.com.test.api.branch.BranchHandlerTest.[engine:junit-jupiter]/[class:co.com.test.api.branch.BranchHandlerTest]/[method:shouldHandleUpdateBranchError()]'/>
-</tests>
-</block>
-<block classname='co.com.test.api.RouterRest$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='8'><tests>
 <test name='co.com.test.api.branch.BranchHandlerTest.[engine:junit-jupiter]/[class:co.com.test.api.branch.BranchHandlerTest]/[method:shouldHandleUpdateBranchError()]'/>
 </tests>
 </block>
@@ -1226,6 +1222,10 @@
 </tests>
 </block>
 <block classname='co.com.test.api.RouterRest$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
+<test name='co.com.test.api.branch.BranchHandlerTest.[engine:junit-jupiter]/[class:co.com.test.api.branch.BranchHandlerTest]/[method:shouldHandleUpdateBranchError()]'/>
+</tests>
+</block>
+<block classname='co.com.test.api.RouterRest$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='12'><tests>
 <test name='co.com.test.api.branch.BranchHandlerTest.[engine:junit-jupiter]/[class:co.com.test.api.branch.BranchHandlerTest]/[method:shouldHandleUpdateBranchError()]'/>
 </tests>
 </block>
