@@ -19,6 +19,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Generate version from date
+        id: date_version
+        run: |
+          VERSION=$(date +'%Y.%m.%d-%H%M')
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
       - name: Build project with Gradle
         run: ./gradlew --info clean build --warning-mode all
 
@@ -28,13 +34,12 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: List files to check Dockerfile location
-        run: ls -la
-
-      - name: Build and push image
+      - name: Build and push Docker images
         uses: docker/build-push-action@v5
         with:
           context: .
           file: deployment/Dockerfile
           push: true
-          tags: epareja97/technical_test_ms:latest
+          tags: |
+            epareja97/technical_test_ms:${{ env.VERSION }}
+            epareja97/technical_test_ms:latest

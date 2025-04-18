@@ -103,7 +103,7 @@ class BranchHandlerTest {
     void shouldUpdateBranchSuccessfully() {
         BranchUpdateRequest updateRequest = BranchUpdateRequest.builder().name("Updated Branch").build();
 
-        given(branchUseCase.update(eq(1L), anyString()))
+        given(branchUseCase.updateName(eq(1L), anyString()))
                 .willReturn(Mono.just(buildBranch()));
 
         this.webTestClient.put()
@@ -118,7 +118,7 @@ class BranchHandlerTest {
     void shouldHandleUpdateBranchError() {
         BranchUpdateRequest updateRequest = BranchUpdateRequest.builder().name("Invalid Update").build();
 
-        given(branchUseCase.update(eq(1L), anyString()))
+        given(branchUseCase.updateName(eq(1L), anyString()))
                 .willReturn(Mono.error(new TechnicalTestException(TechnicalMessage.INVALID_INPUT)));
 
         this.webTestClient.put()

@@ -25,7 +25,7 @@ public class BranchUseCase {
         return branchRepository.get(id);
     }
 
-    public Mono<Branch> update(Long id, String name) {
+    public Mono<Branch> updateName(Long id, String name) {
         return get(id)
                 .flatMap(branch -> branchRepository.update(branch.toBuilder().name(name).build()))
                 .switchIfEmpty(Mono.error(new BusinessException(TechnicalMessage.BRANCH_DOES_NOT_EXIST)));

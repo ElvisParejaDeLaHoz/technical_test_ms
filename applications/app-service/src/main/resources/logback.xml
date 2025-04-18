@@ -16,6 +16,6 @@
     </appender>
 
     <root level="INFO">
-        <appender-ref ref="default"/>
+        <appender-ref ref="jsonConsoleAppender"/>
     </root>
 </configuration>

@@ -60,6 +60,54 @@ Antes de ejecutar el microservicio, asegúrate de tener instalado lo siguiente:
 
 ## Configuración del entorno
 
+## Levantar PostgreSQL con Docker
+
+Para crear y levantar un contenedor de PostgreSQL, ejecuta el siguiente comando:
+
+```bash
+docker run -d \
+  --name postgres-db \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_PASSWORD=postgres \
+  -e POSTGRES_DB=technical_test_bd \
+  -p 5432:5432 \
+  -v ./init.sql:/docker-entrypoint-initdb.d/init.sql \
+  postgres:15
+```
+
+### Tablas SQL
+
+```sql
+CREATE TABLE public.franchise (
+    id bigserial NOT NULL,
+    name varchar(255) NOT NULL,
+    CONSTRAINT franchise_name_key UNIQUE (name),
+    CONSTRAINT franchise_pkey PRIMARY KEY (id)
+);
+
+CREATE TABLE public.branch (
+    id bigserial NOT NULL,
+    name varchar(255) NOT NULL,
+    franchise_id int8 NOT NULL,
+    CONSTRAINT branch_pkey PRIMARY KEY (id),
+    CONSTRAINT unique_branch_name_per_franchise UNIQUE (name, franchise_id),
+    CONSTRAINT branch_franchise_id_fkey FOREIGN KEY (franchise_id) REFERENCES public.franchise(id) ON DELETE CASCADE
+);
+
+CREATE TABLE public.product (
+    id bigserial NOT NULL,
+    name varchar(255) NOT NULL,
+    stock int4 NOT NULL,
+    branch_id int8 NOT NULL,
+    status varchar(20) DEFAULT 'ACTIVE',
+    CONSTRAINT product_pkey PRIMARY KEY (id),
+    CONSTRAINT unique_product_name_per_branch UNIQUE (name, branch_id),
+    CONSTRAINT product_branch_id_fkey FOREIGN KEY (branch_id) REFERENCES public.branch(id) ON DELETE CASCADE
+);
+
+```
+### Variables de entorno
+
 El microservicio requiere algunas variables de entorno para conectarse a la base de datos PostgreSQL.
 Puedes definirlas en un archivo `.env` en la raíz del proyecto:
 
@@ -88,3 +136,6 @@ export DB_POOL_INITIAL_SIZE=5
 export DB_POOL_MAX_SIZE=10
 export DB_POOL_MAX_IDLE_TIME=30
 ```
+
+
+
