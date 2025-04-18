@@ -108,10 +108,10 @@ public class ProductAdapter implements ProductRepository {
 
     private Mono<Boolean> updateStockAndStatus(Long id,String status, int stock) {
         return myProductRepository.updateStockAndStatus(stock, status, id)
-                .doOnSubscribe(subscription -> log.info("Update Stock product request",
+                .doOnSubscribe(subscription -> log.info("Update Stock And Status product request",
                         kv("updateStockAndStatusProductRequest", Map.of("id", id, "status",
                                 status,"stock", stock))))
-                .doOnSuccess(updated -> log.info("Updated Stock product response",
+                .doOnSuccess(updated -> log.info("Updated Stock And Status product response",
                         kv("updatedStockAndStatusProductResponse", updated)))
                 .onErrorMap(TransientDataAccessException.class, error ->
                         new TechnicalException(error, TechnicalMessage.PRODUCT_UPDATE_STOCK_AND_STATUS_FAILED))
