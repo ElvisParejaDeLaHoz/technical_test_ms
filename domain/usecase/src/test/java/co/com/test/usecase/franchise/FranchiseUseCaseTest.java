@@ -77,7 +77,7 @@ class FranchiseUseCaseTest {
         given(franchiseRepository.update(any(Franchise.class)))
                 .willReturn(Mono.just(franchise));
 
-        Mono<Franchise> franchiseResponse = franchiseUseCase.update(franchiseParam, 1L);
+        Mono<Franchise> franchiseResponse = franchiseUseCase.updateName(franchiseParam, 1L);
 
         StepVerifier.create(franchiseResponse)
                 .expectNext(franchise)

@@ -18,6 +18,11 @@ public interface MyProductRepository extends ReactiveCrudRepository<ProductEntit
     @Query("UPDATE public.product SET stock= :stock WHERE id= :id")
     Mono<Boolean> updateStock(int stock, Long id);
 
+
+    @Modifying
+    @Query("UPDATE public.product SET stock= :stock, status= :status WHERE id= :id")
+    Mono<Boolean> updateStockAndStatus(int stock, String status, Long id);
+
     @Query("""
                WITH RankedProducts AS (
                                    SELECT
@@ -42,4 +47,5 @@ public interface MyProductRepository extends ReactiveCrudRepository<ProductEntit
     Flux<ProductViewDTO> findTopStockProductsByFranchise(Long franchiseId, String status);
 
     Mono<ProductEntity> findByIdAndStatus(Long id, String status);
+    Mono<ProductEntity> findByNameAndBranchIdAndStatus(String name, Long branchId, String status);
 }

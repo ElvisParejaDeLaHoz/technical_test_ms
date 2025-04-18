@@ -101,7 +101,7 @@ class FranchiseHandlerTest {
     void shouldUpdateFranchiseSuccessfully() {
         FranchiseRequest updateRequest = FranchiseRequest.builder().name("New Franchise 1").build();
 
-        given(franchiseUseCase.update(any(), eq(1L)))
+        given(franchiseUseCase.updateName(any(), eq(1L)))
                 .willReturn(Mono.just(buildFranchise()));
 
         this.webTestClient.put()
@@ -116,7 +116,7 @@ class FranchiseHandlerTest {
     void shouldHandleUpdateFranchiseError() {
         FranchiseRequest updateRequest = FranchiseRequest.builder().name("New Franchise 1").build();
 
-        given(franchiseUseCase.update(any(), eq(1L)))
+        given(franchiseUseCase.updateName(any(), eq(1L)))
                 .willReturn(Mono.error(new TechnicalTestException(TechnicalMessage.INVALID_INPUT)));
 
         this.webTestClient.put()

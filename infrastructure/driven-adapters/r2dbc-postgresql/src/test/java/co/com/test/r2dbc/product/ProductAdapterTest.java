@@ -21,6 +21,9 @@ import reactor.test.StepVerifier;
 import java.util.List;
 
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.ArgumentMatchers.anyLong;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.BDDMockito.given;
 
 @ExtendWith(MockitoExtension.class)
@@ -70,9 +73,78 @@ class ProductAdapterTest {
         given(productRepository.save(any(ProductEntity.class)))
                 .willReturn(Mono.error(new DuplicateKeyException("An error has been occurred")));
 
+        given(productRepository.findByNameAndBranchIdAndStatus(any(), any(), any()))
+                .willReturn(Mono.empty());
+
         Mono<Product> saved = productAdapter.save(productParam);
 
         StepVerifier.create(saved)
+                .expectError(BusinessException.class)
+                .verify();
+    }
+
+    @Test
+    void shouldCreateAProductByRecovery() {
+        ProductParam productParam = ProductParam.builder()
+                .stock(1)
+                .branchId(1L)
+                .name("Producto")
+                .build();
+
+        given(productRepository.save(any(ProductEntity.class)))
+                .willReturn(Mono.error(new DuplicateKeyException("An error has been occurred")));
+
+        given(productRepository.findByNameAndBranchIdAndStatus(any(), any(), any()))
+                .willReturn(Mono.just(ProductEntity.builder()
+                        .id(1L)
+                        .name("Producto")
+                        .stock(1)
+                        .branchId(1L)
+                        .build()));
+
+        given(productRepository.updateStockAndStatus(anyInt(), anyString(), anyLong()))
+                .willReturn(Mono.just(Boolean.TRUE));
+
+        given(productRepository.findById(anyLong()))
+                .willReturn(Mono.just(ProductEntity.builder()
+                        .id(1L)
+                        .name("Producto")
+                        .stock(1)
+                        .branchId(1L)
+                        .build()));
+
+        Mono<Product> productResponse = productAdapter.save(productParam);
+
+        StepVerifier.create(productResponse)
+                .expectNext(buildProduct())
+                .verifyComplete();
+    }
+
+    @Test
+    void shouldReturnAnErrorCreatingAProductByRecovery() {
+        ProductParam productParam = ProductParam.builder()
+                .stock(1)
+                .branchId(1L)
+                .name("Producto")
+                .build();
+
+        given(productRepository.save(any(ProductEntity.class)))
+                .willReturn(Mono.error(new DuplicateKeyException("An error has been occurred")));
+
+        given(productRepository.findByNameAndBranchIdAndStatus(any(), any(), any()))
+                .willReturn(Mono.just(ProductEntity.builder()
+                        .id(1L)
+                        .name("Producto")
+                        .stock(1)
+                        .branchId(1L)
+                        .build()));
+
+        given(productRepository.updateStockAndStatus(anyInt(), anyString(), anyLong()))
+                .willReturn(Mono.just(Boolean.FALSE));
+
+        Mono<Product> productResponse = productAdapter.save(productParam);
+
+        StepVerifier.create(productResponse)
                 .expectError(BusinessException.class)
                 .verify();
     }

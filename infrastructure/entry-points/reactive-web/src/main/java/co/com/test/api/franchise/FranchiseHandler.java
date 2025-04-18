@@ -60,7 +60,7 @@ public class FranchiseHandler extends BaseHandler {
                     if (errors.getErrorCount() > 0) {
                         return buildErrorResponse(HttpStatus.BAD_REQUEST, TechnicalMessage.INVALID_INPUT);
                     } else {
-                        return franchiseUseCase.update(HandlerMapper.MAPPER.toFranchiseParam(franchiseRequest), farnchiseId)
+                        return franchiseUseCase.updateName(HandlerMapper.MAPPER.toFranchiseParam(franchiseRequest), farnchiseId)
                                 .flatMap(franchise -> buildSuccessResponse(HttpStatus.OK, HandlerMapper.MAPPER.toFranchiseResponse(franchise)))
                                 .onErrorResume(TechnicalTestException.class, error -> buildErrorResponse(HttpStatus.BAD_REQUEST,
                                         error.getTechnicalMessage()))

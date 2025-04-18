@@ -58,7 +58,7 @@ public class BranchHandler extends BaseHandler {
                 .flatMap(branchUpdateRequest ->
                         UtilValidate.validateBranchUpdateRequest(branchUpdateRequest, branchId)
                                 .flatMap(errors -> buildErrorResponse(HttpStatus.BAD_REQUEST, TechnicalMessage.INVALID_INPUT))
-                                .switchIfEmpty(Mono.defer(() -> branchUseCase.update(branchId, branchUpdateRequest.getName())
+                                .switchIfEmpty(Mono.defer(() -> branchUseCase.updateName(branchId, branchUpdateRequest.getName())
                                         .flatMap(branch -> buildSuccessResponse(HttpStatus.OK, HandlerMapper.MAPPER.toBranchResponse(branch)))
                                         .onErrorResume(TechnicalTestException.class, error ->
                                                 buildErrorResponse(HttpStatus.BAD_REQUEST, error.getTechnicalMessage()))

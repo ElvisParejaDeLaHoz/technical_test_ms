@@ -99,7 +99,7 @@ class BranchUseCaseTest {
         given(branchRepository.update(any(Branch.class)))
                 .willReturn(Mono.just(branch));
 
-        Mono<Branch> branchResponse = branchUseCase.update(1L, branchParam.getName());
+        Mono<Branch> branchResponse = branchUseCase.updateName(1L, branchParam.getName());
 
         StepVerifier.create(branchResponse)
                 .expectNext(branch)
@@ -122,7 +122,7 @@ class BranchUseCaseTest {
         given(branchUseCase.get(1L))
                 .willReturn(Mono.empty());
 
-        Mono<Branch> branchResponse = branchUseCase.update(1L, branchParam.getName());
+        Mono<Branch> branchResponse = branchUseCase.updateName(1L, branchParam.getName());
 
         StepVerifier.create(branchResponse)
                 .expectError(BusinessException.class)

@@ -29,6 +29,7 @@ public enum TechnicalMessage {
     PRODUCT_DELETE_FAILED("PR-05", "Error al eliminar el producto."),
     PRODUCT_GET_TOP_FAILED("PR-06", "Error al buscar top de producto."),
     PRODUCT_GET_FAILED("PR-07", "Error al buscar el producto."),
+    PRODUCT_UPDATE_STOCK_AND_STATUS_FAILED("PR-08", "Error al actualizar el stock y el estado del producto."),
 
     INVALID_INPUT("VAL-01", "Los datos de entrada no son válidos."),
     INTERNAL_ERROR("VAL-02", "Error interno, vuelva a intentarlo."),
